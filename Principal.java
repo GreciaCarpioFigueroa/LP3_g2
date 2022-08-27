@@ -5,9 +5,9 @@ public class Principal {
 		int vida, rp =0,a=1;
 		boolean fl = false;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Número? ");
+		System.out.println("Numero? ");
 		vida = sc.nextInt();
-		System.out.println("El número ingresado es: " + vida);
+		System.out.println("El numero ingresado es: " + vida);
 		
 		for (int i = 0; i <= vida; i++)
 			rp += i;
@@ -15,7 +15,15 @@ public class Principal {
 		
 		for (int i = 1; i <= 12; i++)
 			System.out.println(vida +" multplicado por: " + i + " es igual a: " + (vida*i) );
-		//ola alslkaksl
+		int a;
+		System.out.println("Encuentra la clave secreta");
+		a = sc.nextInt();
+		if (a != 9) {
+			System.out.println("No es el numero, perdiste :(");
+		}
+		else {
+			System.out.println("Encontraste tu numero de la suerte")
+		}
 	}
 
 }
