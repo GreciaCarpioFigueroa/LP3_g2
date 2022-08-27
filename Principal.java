@@ -20,6 +20,8 @@ public class Principal {
 		a = sc.nextInt();
 		if (a != 9) {
 			System.out.println("No es el numero, perdiste :(");
+			System.out.ptintln("No obtines regalo");
+			System.out.ptintln("Sin derecho a reclamo");
 		}
 		else {
 			System.out.println("Encontraste tu numero de la suerte");
